@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Opsional: Tambahkan font atau settingan dasar */
+body {
+  @apply bg-stone-50 text-stone-900;
+}
