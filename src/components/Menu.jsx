@@ -25,25 +25,25 @@ const Menu = ({ addToCart }) => {
               initial={{ opacity: 0, scale: 0.5 }}
               whileInView={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="rounded-2xl bg-white hover:bg-amber-900 transition-all hover:text-white relative shadow-xl duration-500 group max-w-[300px] mt-10"
+              className="rounded-2xl bg-white hover:bg-amber-900 transition-all hover:text-white relative shadow-xl duration-500 group max-w-[300px] min-h-[350px] mt-10"
             >
               {/* Image Section */}
               <div className="h-[100px]">
                 <img
                   src={menu.img}
                   alt={menu.name}
-                  className="max-w-[180px] block mx-auto transform -translate-y-14 group-hover:scale-110 group-hover:rotate-6 duration-300 drop-shadow-md"
+                  className="w-[180px] h-[180px] object-contain block mx-auto transform -translate-y-14 group-hover:scale-110 group-hover:rotate-6 duration-300 drop-shadow-md"
                 />
               </div>
 
               {/* Content Section */}
-              <div className="p-6 text-center">
+              <div className="p-6 pt-12 text-center">
                 <h1 className="text-xl font-bold">{menu.name}</h1>
                 <p className="text-gray-500 group-hover:text-white/80 duration-300 text-sm line-clamp-2 mt-2">
                   {menu.description}
                 </p>
 
-                <div className="flex justify-between mt-8 items-center gap-4">
+                <div className="flex justify-between mt-10 items-center gap-4 border-t border-gray-100 group-hover:border-amber-800 pt-4">
                   <p className="text-lg font-bold">Rp {menu.price}</p>
                   <button
                     // 3. Panggil fungsi addToCart saat di-klik

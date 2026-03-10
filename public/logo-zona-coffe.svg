@@ -1,0 +1,17 @@
+<svg width="500" height="500" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="250" cy="250" r="230" fill="#FDF9F3" />
+  
+  <path d="M250 100c-45 0-82 37-82 82 0 60 82 138 82 138s82-78 82-138c0-45-37-82-82-82zm0 115c-18 0-33-15-33-33s15-33 33-33 33 15 33 33-15 33-33 33z" fill="#D32F2F" />
+  
+  <g fill="#1A1A1A">
+    <circle cx="190" cy="430" r="25" />
+    <path d="M150 500c0-25 20-45 45-45s45 20 45 45h-90z" />
+    <circle cx="310" cy="430" r="25" />
+    <path d="M270 500c0-25 20-45 45-45s45 20 45 45h-90z" />
+    <circle cx="250" cy="450" r="30" />
+    <path d="M200 530c0-30 25-55 55-55s55 25 55 55h-110z" />
+  </g>
+
+  <text x="250" y="340" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="42" fill="#1A1A1A" letter-spacing="4">ZONA</text>
+  <text x="250" y="390" text-anchor="middle" font-family="Arial, sans-serif" font-weight="bold" font-size="42" fill="#1A1A1A" letter-spacing="4">COFFEE</text>
+</svg>
