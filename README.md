@@ -7,7 +7,7 @@
 
 **Zona Coffe** adalah proyek _landing page_ modern yang dirancang untuk menghadirkan pengalaman digital kedai kopi yang elegan. Dibangun dengan fokus pada kecepatan performa dan estetika visual yang halus menggunakan animasi interaktif.
 
-🔗 **Live Demo:** [https://zona-coffe.vercel.app](https://zona-coffe.vercel.app) _(Ganti dengan link Vercel asli Anda)_
+🔗 **Live Demo:** [http://zona-coffee-r6dm.vercel.app/]
 
 ---
 
