@@ -1,5 +1,5 @@
 // Import semua gambar dari folder assets dulu
-import Coklat from "../assets/es-Coklat.jpg";
+import Coklat from "../assets/es-coklat.jpg";
 import AmericanoImg from "../assets/americano.jpg";
 import EsKopiAren from "../assets/es-kopi-aren.jpg";
 
@@ -8,7 +8,7 @@ export const MenuData = [
   {
     id: 1,
     name: "Coklat",
-    img: Coklat, 
+    img: Coklat,
     price: "25.000",
     description: "Ekstrak kopi murni dengan aroma kuat.",
   },
