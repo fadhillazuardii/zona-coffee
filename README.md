@@ -1,71 +1,90 @@
-# ☕ Zona Coffe - Landing Page
+# ☕ Zona Coffe - Premium Coffee Shop Landing Page
 
-**Zona Coffe** adalah sebuah landing page modern untuk kedai kopi yang dirancang dengan fokus pada estetika visual dan pengalaman pengguna yang halus. Proyek ini dibangun menggunakan **React.js** dan **Tailwind CSS** untuk desain responsif, serta **Framer Motion** untuk memberikan sentuhan animasi yang interaktif.
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Framer Motion](https://img.shields.io/badge/Framer_Motion-0055FF?style=for-the-badge&logo=framer&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
----
+**Zona Coffe** adalah proyek _landing page_ modern yang dirancang untuk menghadirkan pengalaman digital kedai kopi yang elegan. Dibangun dengan fokus pada kecepatan performa dan estetika visual yang halus menggunakan animasi interaktif.
 
-## 🚀 Tech Stack
-
-Proyek ini menggunakan kombinasi teknologi modern untuk performa dan kemudahan pengembangan:
-
-- **Frontend Library:** [React.js](https://reactjs.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/) (Utility-first CSS framework)
-- **Animations:** [Framer Motion](https://www.framer.com/motion/) (Untuk transisi dan scroll animations)
-- **Icons:** [Lucide React](https://lucide.dev/) / [FontAwesome](https://fontawesome.com/) (Opsional sesuai yang Anda gunakan)
-- **Build Tool:** [Vite](https://vitejs.dev/) (atau Create React App)
+🔗 **Live Demo:** [https://zona-coffe.vercel.app](https://zona-coffe.vercel.app) _(Ganti dengan link Vercel asli Anda)_
 
 ---
 
-## ✨ Fitur Utama
+## ✨ Fitur Unggulan
 
-- 📱 **Responsive Design:** Tampilan yang optimal di perangkat mobile, tablet, hingga desktop.
-- 🎭 **Scroll Animations:** Animasi muncul yang halus saat pengguna menggulir halaman menggunakan Framer Motion.
-- 📋 **Menu Showcase:** Daftar menu kopi pilihan yang tertata rapi.
-- 🎨 **Modern UI:** Skema warna yang hangat dan tipografi yang nyaman dibaca, mencerminkan nuansa kedai kopi.
+- **Premium UI/UX:** Desain bersih dengan skema warna hangat yang mencerminkan suasana kopi.
+- **Interactive Animations:** Menggunakan **Framer Motion** untuk transisi _fade-in_, _staggered list_, dan _smooth scroll_.
+- **Fully Responsive:** Optimal di semua ukuran layar, mulai dari smartphone hingga monitor desktop.
+- **Modern Navbar:** Navigasi yang responsif dengan efek transisi saat di-scroll.
+- **Menu Showcase:** Katalog produk kopi yang tersusun rapi dengan kartu yang interaktif.
 
 ---
 
-## 🛠️ Cara Instalasi (Lokal)
+## 🛠️ Tech Stack
 
-Ikuti langkah-langkah di bawah ini untuk menjalankan proyek ini di komputer Anda:
+- **Framework:** [React.js](https://reactjs.org/)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Animation:** [Framer Motion](https://www.framer.com/motion/)
+- **Icons:** [Lucide React](https://lucide.dev/) / [FontAwesome](https://fontawesome.com/)
+- **Deployment:** [Vercel](https://vercel.com/)
 
-1. **Clone Repositori**
+---
 
-   ```bash
-   git clone [https://github.com/fadhillazuardii/zona-coffe.git](https://github.com/fadhillazuardii/zona-coffee.git)
+## 🚀 Cara Menjalankan Secara Lokal
 
-   ```
+1.  **Clone repositori ini:**
+    ```bash
+    git clone [https://github.com/fadhillazuardii/zona-coffe.git](https://github.com/fadhillazuardii/zona-coffe.git)
+    ```
+2.  **Masuk ke folder proyek:**
+    ```bash
+    cd zona-coffe
+    ```
+3.  **Instal semua dependensi:**
+    ```bash
+    npm install
+    ```
+4.  **Jalankan server pengembangan:**
+    ```bash
+    npm run dev
+    ```
+    _Aplikasi akan berjalan di `http://localhost:5173`._
 
-2. **Masuk ke Directory Project**
+---
 
-   ```bash
-   cd zona-coffe
+## 🌐 Deployment ke Vercel
 
-   ```
+Proyek ini siap untuk di-deploy ke **Vercel** dengan langkah mudah:
 
-3. **Install Dependensi**
+1.  Buat akun di [Vercel](https://vercel.com/).
+2.  Hubungkan akun GitHub Anda.
+3.  Pilih repositori `zona-coffe`.
+4.  Vercel akan secara otomatis mendeteksi framework (Vite/React).
+5.  Klik **Deploy**.
+6.  Setiap kali Anda melakukan `git push` ke branch `main`, Vercel akan memperbarui tampilan web Anda secara otomatis.
 
-   ```bash
-   npm install
+---
 
-   ```
+## 📂 Struktur Proyek
 
-4. **Jalankan Projcet**
-   ```bash
-   npm run dev
-   ```
+```text
+├── public/              # Aset statis (Logo, Favicon)
+├── src/
+│   ├── components/      # Komponen UI (Navbar, Hero, Menu, Footer)
+│   ├── assets/          # Gambar produk & latar belakang
+│   ├── App.jsx          # Komponen utama
+│   └── main.jsx         # Entry point aplikasi
+├── tailwind.config.js   # Konfigurasi Tailwind CSS
+└── package.json         # Informasi dependensi proyek
 
-📂 Struktur Folder
-src/
-├── assets/ # Gambar, ikon, dan file statis lainnya
-├── components/ # Komponen reusable (Navbar, Hero, Menu, Footer)
-├── App.jsx # Komponen utama aplikasi
-├── main.jsx # Entry point aplikasi
-└── index.css # Konfigurasi Tailwind & Global Styles
+👤 Author
+Fadhil Lazuardi
 
-📝 Lisensi
-Proyek ini bersifat open-source. Silakan gunakan sebagai referensi belajar atau kembangkan lebih lanjut!
-Dibuat dengan ❤️ oleh Fadhil Lazuardi
+GitHub: @fadhillazuardii
+
+LinkedIn: https://www.linkedin.com/in/fadhillazuardii/
+
 
 # React + Vite
 
@@ -83,3 +102,4 @@ The React Compiler is not enabled on this template because of its impact on dev 
 ## Expanding the ESLint configuration
 
 If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```
